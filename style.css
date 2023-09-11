@@ -1,0 +1,38 @@
+.main{
+    width: 500px;
+    height: 500px;
+    left: 100px;
+    right: 100px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.one{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 100px;
+    bottom: 100px;
+    background-color:  blue;
+    z-index: 2;
+}
+
+.two{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 150px;
+    bottom: 150px;
+    background-color:  green;
+    z-index: 3;
+}
+
+.three{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 200px;
+    bottom: 200;
+    background-color:  peru;
+    z-index: 1;
+}
